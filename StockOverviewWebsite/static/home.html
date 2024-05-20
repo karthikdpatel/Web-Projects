@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="/static/home.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-image">
+        <div class="background-image-text">Stock Search</div>
+        <div class="inputbar-container">
+            <form id="form">
+                <div id="inputForm" class="inputbar">
+                    <button id="submitBtn" class="searchbtn"></button>
+                    <input name="stock_ticker" id="stock_ticker" required type="text" class="searchbar" placeholder="Enter Stock Ticker Symbol" aria-placeholder="Please Fill out this field"/>
+                    <button id="resetbtn" class="resetbtn"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="found-record" id="found-record">
+        <div class="tab-selection-container">
+            <div class="tab-selection">
+                <button class="tabs" onclick=" displayTab(event, 'company')">Company</button>
+                <button class="tabs" onclick=" displayTab(event, 'stock-summary')">Stock Summary</button>
+                <button class="tabs" onclick=" displayTab(event, 'charts')">Charts</button>
+                <button class="tabs" onclick=" displayTab(event, 'latest-news')">Latest News</button>
+            </div>
+        </div>
+        <div class="tab-content" id="company">
+            <div id="company-tab" class="company-tab"></div>
+        </div>
+        <div class="tab-content" id="stock-summary">
+            <div id="stock-summary-tab" class="stock-summary-tab"></div>
+        </div>
+
+        <div class="tab-content" id="charts"></div>
+
+        <div class="tab-content" id="latest-news">
+            <div id="latest-news-tab"></div>
+        </div>
+    </div>
+    <div class="record-not-found" id="record-not-found">
+        <div class="record-not-found-text" id="record-not-found-text">
+            Error : No record has been found, please enter a valid symbol
+        </div>
+    </div>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="/static/home.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+.background-image {
+    background-image: url("/static/img/back.svg");
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.background-image-text {
+    font-size: 50px;
+	color: black;
+	font-family: sans-serif;
+	font-stretch: ultra-expanded;
+	padding-left: 700px;
+	padding-top: 50px;
+	letter-spacing: 1px;
+}
+
+.inputbar-container {
+    padding-left: 410px;
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
+
+.record-not-found {
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(233,233,233,255);
+    text-align: center;
+
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.record-not-found-text {
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+
+.inputbar {
+    width: 900px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: static;
+    border: none;
+    display: flex;
+}
+
+
+
+.searchbar {
+    border: none;
+    width: 90%;
+    height: 100%;
+    background: none;
+    font-size: 20px;
+}
+
+.searchbtn {
+    width: 25px;
+    height: 25px;
+    background-image: url("/static/img/search-solid.svg");
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.resetbtn {
+    width: 30px;
+    height: 30px;
+    background-image: url("/static/img/times-solid.svg");
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tab-selection-container {
+    background-color: white;
+    position: static;
+}
+
+.tab-selection {
+    background-color: rgba(248,249,250,255);
+    display: inline-flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 1200px;
+}
+
+.tab-selection button {
+    background-color: rgba(248,249,250,255);
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+    width: 200px;
+    height: 60px;
+    border: none;
+}
+
+.tab-selection button:hover {
+    background-color: rgba(204,204,204,255);
+}
+
+.tab-selection button:active, .tab-selection button:focus {
+    background-color: rgba(204,204,204,255);
+}
+
+.company-tab-division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid rgba(240,240,240,255);;
+    width: 500px;
+    margin: 0 600px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.top-line {
+    border-top: 1px solid rgba(240,240,240,255);
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid rgba(240,240,240,255);
+}
+
+.right-column {
+    text-align: right;
+    padding-right: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.left-column {
+    color: rgba(125,125,149,255);
+    font-family: sans-serif;
+}
+
+.company-tab-image{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    width: 100px;
+    height: auto;
+}
+
+.stock-summary-arrow-img {
+    width: 15px;
+    height: auto;
+}
+
+.stock-summary-tab {
+    padding-top: 20px;
+}
+
+.recommendation-box {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.news-image {
+    width: 150px;
+    height: 150px;
+}
+
+#charts {
+    margin-left: 200px;
+    margin-right: 280px;
+    margin-top: 50px;
+    height: 750px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#subtitle_link {
+    text-decoration: underline;
+    color: blue;
+}
