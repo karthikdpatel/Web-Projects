@@ -1,0 +1,68 @@
+@import "../../App.css";
+
+.productSearchOuterDiv {
+  width: 100%;
+  background-color: rgb(33, 37, 41);
+}
+
+.productSearchRow {
+  margin-bottom: 10px;
+}
+
+@media (min-width: $breakpoint-handheld) {
+  .productSearchBody {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: $breakpoint-handheld) {
+  .productSearchBody {
+    h1 {
+      padding-top: 10px;
+    }
+  }
+}
+
+.form-control {
+  --bs-body-bg: white !important;
+  --bs-body-color: #000 !important;
+  background-color: white !important;
+  color: #000 !important;
+}
+
+.form-control:focus {
+  background-color: white !important;
+  color: #000 !important;
+}
+
+.form-control:active,
+input:-internal-autofill-selected {
+  background-color: white !important;
+  color: #000 !important;
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23000000%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e") !important;
+}
+
+.form-select:disabled {
+  background-color: var(--bs-secondary-bg) !important;
+}
+
+.dropdown-menu {
+  background-color: white !important;
+  color: #000 !important;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  --bs-dropdown-link-color: #000 !important;
+  --bs-dropdown-link-hover-color: #000 !important;
+  --bs-dropdown-link-hover-bg: gray !important;
+  --bs-highlight-bg: transparent !important;
+  --bs-highlight-color: #000 !important;
+}
+
+.typeaheadInvalidText {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: var(--bs-form-invalid-color);
+}

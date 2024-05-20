@@ -1,0 +1,32 @@
+.watchListPage {
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+.watchListPageHeading {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.watchListCard {
+    padding-bottom: 10px;
+}
+
+.watchListTopCol {
+    font-size: 30px;
+}
+
+.maroonBar {
+    background-color: #f6d1d5;
+    border-radius: 10px;
+    width: 70%;
+    height: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
